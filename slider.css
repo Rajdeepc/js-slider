@@ -1,6 +1,6 @@
 body,
-#slider,
-.wrapper,
+#js-slider,
+.slide-wrapper,
 .slide-content {
   margin: 0;
   padding: 0;
@@ -10,27 +10,27 @@ body,
   overflow-x: hidden;
 }
 
-.wrapper {
+.slide-wrapper {
   position: relative;
 }
 
-.slide {
+.js-slide {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .slide1 {
-  background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg");
+  background-image: url("https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
 .slide2 {
-  background-image: url("https://static.pexels.com/photos/302892/pexels-photo-302892.jpeg");
+  background-image: url("https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
 .slide3 {
-  background-image: url("https://static.pexels.com/photos/226633/pexels-photo-226633.jpeg");
+  background-image: url("https://images.pexels.com/photos/337909/pexels-photo-337909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
 
-.slide-content {
+.js-slide-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +38,7 @@ body,
   text-align: center;
 }
 
-.slide-content p {
+.js-slide-content p {
   font-size: 2rem;
   color: #fff;
 }

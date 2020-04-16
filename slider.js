@@ -1,4 +1,4 @@
-let sliderImages = document.querySelectorAll('.slide'),
+let sliderImages = document.querySelectorAll('.js-slide'),
     leftArrow = document.querySelector('#left-arrow'),
     rightArrow = document.querySelector('#right-arrow'),
     currentPostion = 0;

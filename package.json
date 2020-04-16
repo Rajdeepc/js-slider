@@ -1,0 +1,23 @@
+{
+  "name": "plainjs-slider",
+  "version": "1.0.0",
+  "description": "A plain javascript slider",
+  "main": "slider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajdeepc/js-slider.git"
+  },
+  "keywords": [
+    "javascript",
+    "slider"
+  ],
+  "author": "Rajdeep Chandra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rajdeepc/js-slider/issues"
+  },
+  "homepage": "https://github.com/Rajdeepc/js-slider#readme"
+}
